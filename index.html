@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Carmina">
+    <meta name="keywords" content="tic,tac,toe,x,0,zero">
+    <meta name="description" content="Simple Tic Tac Toe">
+
+    <title>Simple Tic Tac Toe</title>
+    <link rel="icon" href="assets/images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <h1 id="result">Tic Tac Toe</h1>
+        </div>
+        <div class="canvas">
+            <script src="assets/js/tic-tac-toe.js"></script>
+            <ul>
+                <li onclick="move(1)" class="tick" id="1">#</li>
+                <li onclick="move(2)" class="tick" id="2">#</li>
+                <li onclick="move(3)" class="tick" id="3">#</li>
+                <li onclick="move(4)" class="tick" id="4">#</li>
+                <li onclick="move(5)" class="tick" id="5">#</li>
+                <li onclick="move(6)" class="tick" id="6">#</li>
+                <li onclick="move(7)" class="tick" id="7">#</li>
+                <li onclick="move(8)" class="tick" id="8">#</li>
+                <li onclick="move(9)" class="tick" id="9">#</li>
+            </ul>
+            <a class="button" href="#" onclick="reset()">Reset</a>
+        </div>
+    </div>
+</body>
+
+
+</html>
